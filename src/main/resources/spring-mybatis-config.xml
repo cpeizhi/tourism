@@ -3,7 +3,7 @@
 <configuration>
     <!-- 全局参数 -->
     <settings>
-        <!-- 打印 SQL 语句1 -->
+        <!-- 打印 SQL 语句 -->
         <setting name="logImpl" value="STDOUT_LOGGING" />
 
         <!-- 使全局的映射器启用或禁用缓存。 -->
