@@ -21,4 +21,15 @@ public class TestController {
     public List<T_user> Test(){
        return service.test();
     }
+
+    @RequestMapping(value = "/ontroller1",method = RequestMethod.POST)
+    @ResponseBody
+    public List<T_user> Test1(){
+       return service.test();
+    }
+    @RequestMapping(value = "/ontroller2",method = RequestMethod.POST)
+    @ResponseBody
+    public List<T_user> Test2(){
+       return service.test();
+    }
 }
